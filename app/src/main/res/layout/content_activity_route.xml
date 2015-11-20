@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="56dp"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_train_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_custom_10dp"
+        android:textColorHint="#000123">
+
+        <com.example.shitij.railway.customviews.EditTextRegularFont
+            android:id="@+id/edit_train_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Train number"
+            android:inputType="number"
+            android:maxLength="5" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_custom_10dp"
+        android:orientation="vertical">
+
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:id="@+id/source_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Source Station"
+            android:gravity="center"
+            android:textColor="#000123"
+            android:textSize="@dimen/font_size_medium" />
+
+        <com.example.shitij.railway.customviews.TextViewBoldFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="TO"
+            android:textColor="#000000"
+            android:textSize="@dimen/font_size_small" />
+
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:id="@+id/destination_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Destination Station"
+            android:padding="5dp"
+            android:textColor="#000123"
+            android:textSize="@dimen/font_size_medium" />
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:id="@+id/distance_field"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_size_small"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="15dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:layout="@layout/fragment_activity_route" />
+</LinearLayout>

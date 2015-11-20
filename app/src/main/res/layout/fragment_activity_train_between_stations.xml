@@ -1,0 +1,69 @@
+<LinearLayout
+    android:layout_marginTop="60dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/activity_train_between_stations">
+    <LinearLayout
+        android:layout_marginTop="@dimen/padding_custom_10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.shitij.railway.customviews.TextViewBoldFont
+            android:gravity="left"
+            android:textSize="@dimen/font_size_small"
+            android:text="Source Station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <AutoCompleteTextView
+            android:textColor="#000123"
+            android:id="@+id/edit_source_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/padding_custom_10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.shitij.railway.customviews.TextViewBoldFont
+            android:gravity="left"
+            android:textSize="@dimen/font_size_small"
+            android:text="Destination Station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <AutoCompleteTextView
+            android:textColor="#000123"
+            android:id="@+id/edit_destination_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/padding_custom_10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.shitij.railway.customviews.TextViewBoldFont
+            android:gravity="left"
+            android:textSize="@dimen/font_size_small"
+            android:text="Travel Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_size_medium"
+            android:text="Click here to select date"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/date_travel_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

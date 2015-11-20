@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cpb_default_color">@color/grofers_orange</color>
+    <dimen name="cpb_default_stroke_width">3dp</dimen>
+    <integer name="cpb_default_min_sweep_angle">20</integer>
+    <integer name="cpb_default_max_sweep_angle">300</integer>
+    <item name="cpb_default_sweep_speed" format="float" type="string">1</item>
+    <item name="cpb_default_rotation_speed" format="float" type="string">1</item>
+
+    <dimen name="cpb_default_stroke_width_small">2dp</dimen>
+    <item name="cpb_default_sweep_speed_fast" format="float" type="string">3</item>
+    <item name="cpb_default_rotation_speed_fast" format="float" type="string">3</item>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_home" tools:context=".ActivityHome">
+    <com.example.shitij.railway.customviews.TextViewBoldFont
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Welcome to the Railway Enquiry System"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<FrameLayout
+    android:layout_margin="16dp"
+    android:id="@+id/train_between_stations"
+    android:layout_gravity="center"
+    android:layout_width="200dp"
+    android:layout_height="150dp">
+    <ImageView
+        android:src="@drawable/trains_1"
+        android:id="@+id/image_train_between_stations"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.example.shitij.railway.customviews.TextViewRegularFont
+        android:layout_gravity="center|bottom"
+        android:background="#77000000"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:text="Train between Stations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/train_route"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:src="@drawable/train_routes"
+            android:id="@+id/image_train_route"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center"
+            android:background="#77000000"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:text="Train Route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</FrameLayout>
+
+</LinearLayout>
