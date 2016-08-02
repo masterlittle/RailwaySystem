@@ -313,6 +313,8 @@ public class FragmentTrainBetweenStations extends Fragment implements DialogCall
 
     }
 
+
+
     public void setDate(int year, int monthOfYear, int dayOfMonth) {
         date = dayOfMonth + "-" + (monthOfYear+1);
         dateTrain.setText((dayOfMonth) + " / " + (monthOfYear+1) +" / "+ year);

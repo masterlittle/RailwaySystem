@@ -104,8 +104,8 @@
       <file leaf-file-name="FragmentTrainBetweenStations.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shitij/railway/fragments/FragmentTrainBetweenStations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4428904">
-              <caret line="188" column="16" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.7039801">
+              <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
               <folding>
                 <element signature="e#6811#8421#0" expanded="true" />
                 <element signature="e#8420#8421#0" expanded="true" />
@@ -2293,9 +2293,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/shitij/railway/activities/ActivityRoute.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/shitij/railway/activities/ActivityHome.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/shitij/railway/fragments/FragmentListTrainBetweenStations.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/shitij/railway/fragments/FragmentTrainBetweenStations.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragement_list_train_between_stations.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/shitij/railway/fragments/FragmentTrainBetweenStations.java" />
       </list>
     </option>
   </component>
@@ -3215,8 +3215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shitij/railway/fragments/FragmentTrainBetweenStations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4428904">
-          <caret line="188" column="16" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.7039801">
+          <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
           <folding>
             <element signature="e#6811#8421#0" expanded="true" />
             <element signature="e#8420#8421#0" expanded="true" />
