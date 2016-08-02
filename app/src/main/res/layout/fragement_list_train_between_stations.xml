@@ -1,0 +1,22 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shitij.railway.fragments.FragmentListTrainBetweenStations">
+
+    <com.example.shitij.railway.customviews.TextViewRegularFont
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/font_size_large"
+        android:text="Trains Found"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <ExpandableListView
+        android:id="@+id/listTrains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

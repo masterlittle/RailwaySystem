@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.example.shitij.railway.customviews.TextViewBoldFont
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:gravity="left"
+        android:text="Departure Time:"
+        android:textSize="@dimen/font_size_small"
+        android:layout_height="wrap_content" />
+    <com.example.shitij.railway.customviews.TextViewRegularFont
+        android:id="@+id/departure_time"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:textSize="@dimen/font_size_small"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.shitij.railway.customviews.TextViewBoldFont
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="Arrival Time:"
+            android:textSize="@dimen/font_size_small"
+            android:layout_height="wrap_content" />
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:id="@+id/arrival_time"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_small"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.shitij.railway.customviews.TextViewBoldFont
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="From:"
+            android:textSize="@dimen/font_size_small"
+            android:layout_height="wrap_content" />
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:id="@+id/source_name"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_small"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.shitij.railway.customviews.TextViewBoldFont
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="To:"
+            android:textSize="@dimen/font_size_small"
+            android:layout_height="wrap_content" />
+        <com.example.shitij.railway.customviews.TextViewRegularFont
+            android:id="@+id/destination_name"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_small"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
